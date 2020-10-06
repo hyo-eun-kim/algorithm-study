@@ -1,15 +1,15 @@
 # Algorithm-Study
 2020 algorithm study
 
-* member
+* **member**
   - 김미성 | [NOTE]()
   - 김태욱 | [NOTE]()
   - 김효은 | [NOTE](https://hyoeun-log.tistory.com/)
   - 윤기오 | [NOTE]()
   - 이세윤 | [NOTE]()
   - 이유진 | [NOTE]()
-
-* study
+<br><br>
+* **study**
 책 : 파이썬 알고리즘 인터뷰
   - 선형 자료구조
     - ch07  배열 
@@ -31,8 +31,8 @@
     - ch21 그리디 알고리즘
     - ch22 분할 정복
     - ch23 다이나믹 프로그래밍
-    
-  * commit
+<br><br>    
+* **commit**
     - 각 chapter 내 폴더에 "ch{chapter번호}\_{문제 번호}\_{이름}.py" 형식으로 업로드
       - ex) ch6_1_hyoeun.py
  
