@@ -25,6 +25,6 @@ def reorderLogFile(logs):
     print(sort_letters)
     print(letters)
     
-    return print(digits + letters)
+    return print(letters +digits)
                          
 reorderLogFile(logs)
