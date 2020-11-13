@@ -22,11 +22,12 @@ from typing import *
 class Solution:
 
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        # 내 풀이
+        # 내 풀이 - 944ms, 47.8%
         result = []
         nums.sort()
-
         for i in range(len(nums) - 2):
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
             a = nums[i]
             new_nums = nums[i + 1:]
 
@@ -43,11 +44,12 @@ class Solution:
                     k -= 1
                 else:
                     answer = [a, b, c]
-                    if answer not in result:
-                        result.append(answer)
-                    j += 1
+                    result.append(answer)
+                    while k > j and new_nums[j] == new_nums[j + 1]:
+                        j += 1
+                    while k > j and new_nums[k] == new_nums[k - 1]:
+                        k -= 1
                     k -= 1
         return result
 
-#####################################################################################
 
