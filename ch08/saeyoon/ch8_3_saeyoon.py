@@ -37,6 +37,7 @@ class Solution:
 
         return rev
 
+
     def reverseList2(self, head: ListNode) -> ListNode:
         # 재귀 구조
         # 36ms
@@ -47,6 +48,7 @@ class Solution:
             return reverse(next, node)
 
         return reverse(head)
+
 
     def reverseList3(self, head: ListNode) -> ListNode:
         # 반복 구조

@@ -40,12 +40,12 @@ class Solution:
         return head
 
 
-def mergeTwoLists2(self, l1: ListNode, l2: ListNode) -> ListNode:
-    # 재귀
-    # 32ms
-    if (not l1) or (l1.val > l2.val and l2):
-        l1, l2 = l2, l1
-    if l1:
-        l1.next = self.mergeTwoLists2(l1.next, l2)
+    def mergeTwoLists2(self, l1: ListNode, l2: ListNode) -> ListNode:
+        # 재귀
+        # 32ms
+        if (not l1) or (l1.val > l2.val and l2):
+            l1, l2 = l2, l1
+        if l1:
+            l1.next = self.mergeTwoLists2(l1.next, l2)
 
-    return l1
+        return l1
