@@ -18,8 +18,8 @@ class MyStack:
 
     def push(self, x: int) -> None:
         self.q.append(x)
-        # for i in range(len(self.q) - 1):
-        #     self.q.append(self.q.popleft())
+        for i in range(len(self.q) - 1):
+            self.q.append(self.q.popleft())
 
     def pop(self) -> int:
         return self.q.pop()
