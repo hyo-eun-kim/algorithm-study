@@ -1,63 +1,45 @@
-class MyCircularQueue:
+class MyQueue:
 
-    def __init__(self, k: int):
+    def __init__(self):
         """
-        Initialize your data structure here. Set the size of the queue to be k.
+        Initialize your data structure here.
         """
-        self.cq = []
-        self.size = k
+        self.s1 = []
+        self.s2 = []
 
+    def push(self, x: int) -> None:
+        """
+        Push element x to the back of queue.
+        """
+        self.s1.append(x)
 
-    def enQueue(self, value: int) -> bool:
         """
-        Insert an element into the circular queue. Return true if the operation is successful.
+        이걸 여기에 갖다 붙이면 push를 반복적으로 하는 걸 못잡아냄
+        if self.s2 == []:
+            while self.s1:
+                self.s2.append(self.s1.pop())
         """
-        if len(self.cq) < self.size:
-            self.cq.append(value)
-            return True
-        else:
-            return False
 
-    def deQueue(self) -> bool:
+    def pop(self) -> int:
         """
-        Delete an element from the circular queue. Return true if the operation is successful.
+        Removes the element from in front of queue and returns that element.
         """
-        try:
-            del self.cq[0]
-            return True
-        except:
-            return False
-
-
-    def Front(self) -> int:
-        """
-        Get the front item from the queue.
-        """
-        try:
-            return self.cq[0]
-        except IndexError:
-            return -1
+        self.peek()
+        return self.s2.pop()
 
 
-    def Rear(self) -> int:
+    def peek(self) -> int:
         """
-        Get the last item from the queue.
+        Get the front element.
         """
-        try:
-            return self.cq[-1]
-        except:
-            return -1
+        if not self.s2:
+            while self.s1:
+                self.s2.append(self.s1.pop()) # 가장 먼저 들어간 게 가장 마지막에 붙어 있는 구조
+        return self.s2[-1]
 
 
-    def isEmpty(self) -> bool:
+    def empty(self) -> bool:
         """
-        Checks whether the circular queue is empty or not.
+        Returns whether the queue is empty.
         """
-        return len(self.cq) == 0
-
-
-    def isFull(self) -> bool:
-        """
-        Checks whether the circular queue is full or not.
-        """
-        return len(self.cq) == self.size
+        return self.s1 == [] and self.s2 == [] # 두 가지 길이 모두 체크

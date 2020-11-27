@@ -1,41 +1,32 @@
-class MyStack:
-
-    def __init__(self):
+class Solution:
+    def dailyTemperatures(self, T: List[int]) -> List[int]:
         """
-        Initialize your data structure here.
+        O(n^2)
 
-        queue 자료형을 이용해서 stack을 구현해야 하니까 init은 queue로 함
+        days = [0 for i in range(len(T))]
+        stack = []
+
+        for i in range(len(T)):
+            found = False
+            for k in range(i,len(T)):
+                if T[k] > T[i]:
+                    found = True
+                    break
+                days[i] += 1
+            if not found:
+                days[i] = 0
+
+        return days
         """
-        self.q = collections.deque()
 
+        # stack
+        days = [0 for _ in range(len(T))]
+        stack= []
 
-    def push(self, x: int) -> None:
-        """
-        Push element x onto stack.
-        """
-        self.q.append(x)
-        #self.q.appendleft(x)
+        for i, cur in enumerate(T):
+            while stack and cur > T[stack[-1]]:
+                top = stack.pop()
+                days[top] = i - top
+            stack.append(i)
 
-
-
-    def pop(self) -> int:
-        """
-        Removes the element on top of the stack and returns that element.
-        """
-        return self.q.pop()
-
-
-    def top(self) -> int:
-        """
-        Get the top element.
-        """
-        tmp = self.q.pop()
-        self.q.append(tmp)
-        return tmp
-
-
-    def empty(self) -> bool:
-        """
-        Returns whether the stack is empty.
-        """
-        return len(self.q) == 0
+        return days

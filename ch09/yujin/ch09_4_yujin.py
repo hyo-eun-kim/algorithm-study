@@ -1,45 +1,41 @@
-class MyQueue:
+class MyStack:
 
     def __init__(self):
         """
         Initialize your data structure here.
+
+        queue 자료형을 이용해서 stack을 구현해야 하니까 init은 queue로 함
         """
-        self.s1 = []
-        self.s2 = []
+        self.q = collections.deque()
+
 
     def push(self, x: int) -> None:
         """
-        Push element x to the back of queue.
+        Push element x onto stack.
         """
-        self.s1.append(x)
+        self.q.append(x)
+        #self.q.appendleft(x)
 
-        """
-        이걸 여기에 갖다 붙이면 push를 반복적으로 하는 걸 못잡아냄
-        if self.s2 == []:
-            while self.s1:
-                self.s2.append(self.s1.pop())
-        """
+
 
     def pop(self) -> int:
         """
-        Removes the element from in front of queue and returns that element.
+        Removes the element on top of the stack and returns that element.
         """
-        self.peek()
-        return self.s2.pop()
+        return self.q.pop()
 
 
-    def peek(self) -> int:
+    def top(self) -> int:
         """
-        Get the front element.
+        Get the top element.
         """
-        if not self.s2:
-            while self.s1:
-                self.s2.append(self.s1.pop()) # 가장 먼저 들어간 게 가장 마지막에 붙어 있는 구조
-        return self.s2[-1]
+        tmp = self.q.pop()
+        self.q.append(tmp)
+        return tmp
 
 
     def empty(self) -> bool:
         """
-        Returns whether the queue is empty.
+        Returns whether the stack is empty.
         """
-        return self.s1 == [] and self.s2 == [] # 두 가지 길이 모두 체크
+        return len(self.q) == 0
