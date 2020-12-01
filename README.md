@@ -12,9 +12,9 @@
 * **study**
   - _책 : 파이썬 알고리즘 인터뷰_
   - **선형 자료구조**
-    - ch07  배열 ✔
-    - ch08  연결리스트 ✔ 
-    - ch09  스택, 큐
+    - [ch07  배열](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)
+    - [ch08  연결리스트](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch08)
+    - [ch09  스택, 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch09)
     - ch10 데크, 우선순위 큐
     - ch11 해시 테이블
   - **비선형 자료구조**
