@@ -9,17 +9,17 @@ from collections import Counter
 
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
+        # 32 ms
         stack = []
-        seen = set()
+        # 각 알파벳의 마지막 인덱스 딕셔너리 형태로 저장
         last_index = {c: i for i, c in enumerate(s)}
 
         for i, c in enumerate(s):
-            if c in seen:
-                continue
-            while stack and stack[-1] > c and last_index[stack[-1]] > i:
-                seen.remove(stack.pop())
-            seen.add(c)
-            stack.append(c)
+            if c not in stack:
+                # 사전순으로 앞에 있는 글자이며, 뒤에 붙일 글자가 남아 있는 경우
+                while stack and stack[-1] > c and last_index[stack[-1]] > i:
+                    stack.pop()
+                stack.append(c)
 
         return ''.join(stack)
 
