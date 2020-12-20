@@ -15,8 +15,8 @@
     - ✔[ch07  배열](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)
     - ✔[ch08  연결리스트](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch08)
     - ✔[ch09  스택, 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch09)
-    - ch10 데크, 우선순위 큐
-    - ch11 해시 테이블
+    - ✔[ch10 데크, 우선순위 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch10)
+    - ✔[ch11 해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)
   - **비선형 자료구조**
     - ch12 그래프
     - ch13 최단 경로
