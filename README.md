@@ -11,7 +11,8 @@
 <br><br>
 * **study**
   - _책 : 파이썬 알고리즘 인터뷰_
-  - **선형 자료구조**
+
+**선형 자료구조**
 | complete | chapter | content | link |
 |---|:---:|:---:|---|
 |✔|7|배열|[array](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)|
