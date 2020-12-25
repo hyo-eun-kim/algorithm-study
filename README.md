@@ -12,13 +12,13 @@
 * **study**
   - _책 : 파이썬 알고리즘 인터뷰_
 
-**선형 자료구조**
+**목차 **
 | complete | chapter | content | link |
 |:---:|:---:|:---:|:---:|
 |✔|7|배열|[배열](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)|
 |✔|8|연결리스트|[연결리스트](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch08)|
 |✔|9|스택, 큐|[스택, 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch09)|
-|✔|10|데크, 우선순위 큐|[데크, 우선순위 ㅠ](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch10)|
+|✔|10|데크, 우선순위 큐|[데크, 우선순위 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch10)|
 |✔|11|해시 테이블|[해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)|
 | |12|그래프|  |
 | |13|최단 경로|  |
