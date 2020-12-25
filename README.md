@@ -14,32 +14,34 @@
 
 **선형 자료구조**
 | complete | chapter | content | link |
-|---|:---:|:---:|---|
-|✔|7|배열|[array](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)|
-|✔|8|연결리스트|[linked list](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch08)|
-|✔|9|스택, 큐|[stack, queue](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch09)|
-|✔|10|데크, 우선순위 큐|[deque, priority queue](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch10)|
-|✔|11|해시 테이블|[hash table](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)|
-  
-    - ✔[ch07  배열](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)
-    - ✔[ch08  연결리스트](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch08)
-    - ✔[ch09  스택, 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch09)
-    - ✔[ch10 데크, 우선순위 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch10)
-    - ✔[ch11 해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)
+|:---:|:---:|:---:|:---:|
+|✔|7|배열|[배열](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)|
+|✔|8|연결리스트|[연결리스트](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch08)|
+|✔|9|스택, 큐|[스택, 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch09)|
+|✔|10|데크, 우선순위 큐|[데크, 우선순위 ㅠ](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch10)|
+|✔|11|해시 테이블|[해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)|
+
+
   - **비선형 자료구조**
-    - ch12 그래프
-    - ch13 최단 경로
-    - ch14 트리
-    - ch15 힙
-    - ch16 트라이
+| complete | chapter | content | link |
+|:---:|:---:|:---:|:---:|
+|✔|12|그래프|  |
+|✔|13|최단 경로|  |
+|✔|14|트리|  |
+|✔|15|힙|  |
+|✔|16|트라이|  |
+
   - **알고리즘**
-    - ch17 정렬
-    - ch18 이진 검색
-    - ch19 비트 조작
-    - ch20 슬라이딩 윈도우
-    - ch21 그리디 알고리즘
-    - ch22 분할 정복
-    - ch23 다이나믹 프로그래밍
+| complete | chapter | content | link |
+|:---:|:---:|:---:|:---:|
+|✔|17|정렬|  |
+|✔|18|이진 검색|  |
+|✔|19||비트 조작|
+|✔|20||슬라이딩 윈도우|
+|✔|21|그리디 알고리즘|  |
+|✔|22|분할 정복|  |
+|✔|23|다이나믹 프로그래밍|  |
+
 <br><br>    
 * **commit**
     - 각 chapter 내 폴더에 "ch{chapter번호}\_{문제 번호}\_{이름}.py" 형식으로 업로드
