@@ -26,8 +26,7 @@ class Solution:
                 dfs(sub_list+[value], remain_list[:i]+remain_list[i+1:])
 
         result = []
-        for i, value in enumerate(nums):
-            dfs([value], nums[:i]+nums[i+1:])
+        dfs([], nums)
         return result
 
 
