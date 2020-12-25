@@ -22,7 +22,7 @@
 |✔|11|해시 테이블|[해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)|
 
 
-  - **비선형 자료구조**
+**비선형 자료구조**
 | complete | chapter | content | link |
 |:---:|:---:|:---:|:---:|
 |✔|12|그래프|  |
@@ -31,7 +31,7 @@
 |✔|15|힙|  |
 |✔|16|트라이|  |
 
-  - **알고리즘**
+**알고리즘**
 | complete | chapter | content | link |
 |:---:|:---:|:---:|:---:|
 |✔|17|정렬|  |
