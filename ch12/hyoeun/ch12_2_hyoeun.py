@@ -42,7 +42,7 @@ class Solution:
             result = []
             return self.iterate(digits, result, 0)
 
-# my solution
+
 # faster than 55% (32ms)
 # less than 20% (14.3MB)
 class Solution2:
