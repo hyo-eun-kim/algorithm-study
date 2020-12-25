@@ -13,7 +13,7 @@
   - _책 : 파이썬 알고리즘 인터뷰_
   - **선형 자료구조**
   | complete | chapter | content | link |
-  |--|:--:|:--:|--|
+  |---|:---:|:---:|---|
   |✔|7|배열|[array](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)|
   |✔|8|연결리스트|[linked list](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch08)|
   |✔|9|스택, 큐|[stack, queue](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch09)|
