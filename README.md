@@ -12,7 +12,8 @@
 * **study**
   - _책 : 파이썬 알고리즘 인터뷰_
 
-**목차 **
+
+- **목차 **
 | complete | chapter | content | link |
 |:---:|:---:|:---:|:---:|
 |✔|7|배열|[배열](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch07)|
