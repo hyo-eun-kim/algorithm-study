@@ -6,8 +6,8 @@ answer의 순서는 상관없다.
 from typing import *
 
 # my solution
-# faster than 55% (32ms)
-# less than 41% (14.3MB)
+# faster than 94% (24ms)
+# less than 20% (14.4MB)
 class Solution:
     def iterate(self, digits: List, result: List, i):
         num_to_alpha = {
@@ -26,13 +26,13 @@ class Solution:
         elif i == 0:
             return self.iterate(digits, num_to_alpha[digits[i]], i+1)
         else:
-            new_result = []
             alphas = num_to_alpha[digits[i]]
-            while result:
+            length = len(result)
+            for _ in range(length):
                 tmp = result.pop()
                 for alpha in alphas:
-                    new_result.append(tmp + alpha)
-            return self.iterate(digits, new_result, i+1)
+                    result.insert(0, tmp + alpha)
+            return self.iterate(digits, result, i+1)
 
     def letterCombinations(self, digits: str) -> List[str]:
         if str == "":
@@ -41,7 +41,6 @@ class Solution:
             digits = list(digits)
             result = []
             return self.iterate(digits, result, 0)
-
 
 # faster than 55% (32ms)
 # less than 20% (14.3MB)
