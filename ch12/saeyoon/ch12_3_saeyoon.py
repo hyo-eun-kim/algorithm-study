@@ -1,7 +1,7 @@
 """
 ## 12-3. 순열
 
-2에서 9까지 숫자가 주어졌을 때 전화 번호로 조합 가능한 모든 문자를 출력하라.
+서로 다른 정수를 입력받아 가능한 모든 순열을 리턴하라.
 """
 from typing import *
 from itertools import permutations
