@@ -4,7 +4,7 @@
 * **member**
   - 김미성 | [NOTE]()
   - 김태욱 | [NOTE]()
-  - 김효은 | [NOTE](https://hyoeun-log.tistory.com/)
+  - 김효은 | [NOTE]()
   - 윤기오 | [NOTE]()
   - 이세윤 | [NOTE](https://blog.naver.com/ericalee97)
   - 이유진 | [NOTE]()
