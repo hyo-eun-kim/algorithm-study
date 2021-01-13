@@ -9,7 +9,6 @@
     / \
   4    5
 """
-from typing import *
 from collections import deque
 
 

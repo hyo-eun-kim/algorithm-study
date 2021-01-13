@@ -3,8 +3,6 @@
 
 두 이진 트리를 병합하라. 중복되는 노드는 값을 합산한다.
 """
-from typing import *
-
 
 # Definition for a binary tree node.
 class TreeNode:
