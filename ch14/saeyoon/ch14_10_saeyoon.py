@@ -3,8 +3,6 @@
 
 BST의 각 노드를 현재값보다 더 큰 값을 가진 모든 노드의 합으로 만들어라.
 """
-from typing import *
-
 
 # Definition for a binary tree node.
 class TreeNode:
