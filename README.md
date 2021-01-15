@@ -30,7 +30,7 @@
 |✔|11|해시 테이블|[해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)|
 |✔|12|그래프|[그래프](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch12)|
 |✔|13|최단 경로|[최단경로](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch13)|
-| |14|트리|[](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)|
+|✔|14|트리|[트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)|
 | |15|힙|  |
 | |16|트라이|  |
 | |17|정렬|  |
