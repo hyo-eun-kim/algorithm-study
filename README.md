@@ -31,8 +31,8 @@
 |✔|12|그래프|[그래프](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch12)|
 |✔|13|최단 경로|[최단경로](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch13)|
 |✔|14|트리|[트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)|
-| |15|힙|  |
-| |16|트라이|  |
+|✔|15|힙|[힙](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch15)|
+|✔|16|트라이|[트라이](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch16)|
 | |17|정렬|  |
 | |18|이진 검색|  |
 | |19|비트 조작| |
