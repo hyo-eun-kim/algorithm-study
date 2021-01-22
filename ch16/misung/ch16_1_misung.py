@@ -1,13 +1,12 @@
 # 트라이 구현
 # 트라이의 insert , search, startswith 메소드를 구현하라.
 
-import collections 
 
 # 트라이를 저장할 노드 
 class TrieNode:
     def __init__(self):
         self.word = False
-        self.children = {}
+        self.children = collections.defaultdict(TrieNode)
 
 class Trie(object):
 
