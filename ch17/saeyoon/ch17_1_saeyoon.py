@@ -23,8 +23,8 @@ class Solution:
         result.sort()
 
         node = head
-        for i in range(len(result)):
-            node.val = result[i]
+        for i in result:
+            node.val = i
             node = node.next
 
         return head
