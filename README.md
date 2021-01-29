@@ -33,7 +33,7 @@
 |14장 | [트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)                |3주동안 6문제씩 | 유진     | 그래프                    |✔|
 |15장 | [힙](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch15)                  |3주동안 6문제씩 | 기오     | 최단경로, 트리            |✔|
 |16장 | [트라이](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch16)              |3주동안 6문제씩 |기오      |최단경로, 트리             |✔|
-|17장 | ]정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)                | 1주            | 미성     | 힙, 트라이                |✔|
+|17장 | [정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)                | 1주            | 미성     | 힙, 트라이                |✔|
 |18장 | 이진 검색           | *              | 세윤     | 정렬                      | |
 |19장 | 비트 조작           | *              | 태욱     | 이진 검색                 | |
 |20장 | 슬라이딩 윈도우     | *              | 효은     | 비트 조작                 | |
