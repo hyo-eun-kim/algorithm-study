@@ -33,7 +33,7 @@
 |✔|14|트리|[트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)|
 |✔|15|힙|[힙](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch15)|
 |✔|16|트라이|[트라이](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch16)|
-| |17|정렬|  |
+|✔|17|정렬|[정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)|
 | |18|이진 검색|  |
 | |19|비트 조작| |
 | |20|슬라이딩 윈도우|
