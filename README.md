@@ -29,10 +29,10 @@
 |10장 | [데크, 우선순위 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch10)   | 1주            | 태욱     |✔|
 |11장 | [해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)         |  //            | //       |✔|
 |12장 | [그래프](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch12)              | 1주            | 효은     |✔|
-|13장 | [최단 경로](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch13)           |3주동안 6문제씩 | 세윤     |✔|
-|14장 | [트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)                |3주동안 6문제씩 | 유진     |✔|
-|15장 | [힙](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch15)                  |3주동안 6문제씩 | 기오     |✔|
-|16장 | [트라이](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch16)              |3주동안 6문제씩 |기오      |✔|
+|13장 | [최단 경로](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch13)           |1주(01.02~01.08) | 세윤     |✔|
+|14장 | [트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)                |3주(01.02~01.22)| 유진     |✔|
+|15장 | [힙](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch15)                  | 1주(01.16~01.22) | 기오     |✔|
+|16장 | [트라이](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch16)              | 1주(01.16~01.22) |기오      |✔|
 |17장 | [정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)                | 1주(01.23~01.29) | 미성     |✔|
 |18장 | [이진 검색](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch18)           | 1주(01.30~02.05) | 세윤     |✔|
 |19장 | 비트 조작           | 1주(02.06~02.12)              | 태욱     | |
