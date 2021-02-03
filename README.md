@@ -33,8 +33,8 @@
 |14장 | [트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)                |3주동안 6문제씩 | 유진     |✔|
 |15장 | [힙](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch15)                  |3주동안 6문제씩 | 기오     |✔|
 |16장 | [트라이](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch16)              |3주동안 6문제씩 |기오      |✔|
-|17장 | [정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)                | 1주            | 미성     |✔|
-|18장 | [이진 검색](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch18)           | 1주            | 세윤     |✔|
+|17장 | [정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)                | 1주(01.23~01.29) | 미성     |✔|
+|18장 | [이진 검색](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch18)           | 1주(01.30~02.05) | 세윤     |✔|
 |19장 | 비트 조작           | 1주(02.06~02.12)              | 태욱     | |
 |20장 | 슬라이딩 윈도우     | 1주(02.13~02.19)              | 효은     | |
 |21장 | 그리디 알고리즘     | *              | 유진     | |
