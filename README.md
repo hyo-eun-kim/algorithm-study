@@ -27,7 +27,7 @@
 |8장  | [연결리스트](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch08)          | 2회(11.14~**11.20**)| 미성     |✔|
 |9장  | [스택, 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch09)            | 3회(11.21~**11.27**)| 세윤     |✔|
 |10장 | [데크, 우선순위 큐](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch10)   | 4회(12.14~**12.21**))| 태욱     |✔|
-|11장 | [해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)         | 4회(12.14~**12.21**)|       |✔|
+|11장 | [해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)         | 4회(12.14~**12.21**)|태욱       |✔|
 |12장 | [그래프](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch12)              | 5회(12.22~**01.01**)| 효은     |✔|
 |13장 | [최단 경로](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch13)           | 6회(01.02~**01.08**) | 세윤     |✔|
 |14장 | [트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)                | 6회, 7회, 8회(01.02~01.22)| 유진     |✔|
