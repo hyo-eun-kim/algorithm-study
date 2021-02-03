@@ -5,7 +5,7 @@
 * 주의: 배열은 0이 아닌 1부터 시작하는 것으로 한다.
 """
 from typing import *
-from bisect import bisect_left
+
 
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
