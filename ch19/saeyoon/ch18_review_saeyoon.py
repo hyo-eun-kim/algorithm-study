@@ -36,6 +36,7 @@ def solution(info, query):
             string.pop()
 
     make_cases(0, [])
+    print(cases)
 
     for lst in info:
         *data, score = lst.split()
@@ -45,8 +46,13 @@ def solution(info, query):
                 copy_data = deepcopy(data)
                 for idx in position:
                     copy_data[idx] = "-"
+                print(position, copy_data)
                 # 조건에 해당하는 값 이진 검색 하여 해당 값 삽입
                 bisect.insort_left(cases[" and ".join(copy_data)], int(score))
+
+    import pprint
+    print("CASES: ")
+    pprint.pprint(cases)
 
     for q in query:
         q, score = q.rsplit(maxsplit=1)[:-1][0], q.rsplit(maxsplit=1)[-1]
