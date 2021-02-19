@@ -13,7 +13,7 @@ class Solution(object):
         left= start=end=0
 
         for right, char in enumerate(s,1):
-            missing -= need[cahr]>0  # 현재 필요한 문자가 0보다 크면 missing 1 감소
+            missing -= need[char]>0  # 현재 필요한 문자가 0보다 크면 missing 1 감소
             need[char] -= 1 #  need도 1감소
 
             # 필요한 문자의 개수가 0 이면, left를 이동해서 줄일수 있는지 확인
