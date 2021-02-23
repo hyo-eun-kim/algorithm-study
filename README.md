@@ -17,8 +17,8 @@
 |16장 | [트라이](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch16)              | 8회(01.16~**01.22**) |기오      |✔|
 |17장 | [정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)                | 9회(01.23~**01.29**) | 미성     |✔|
 |18장 | [이진 검색](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch18)           | 10회(01.30~**02.05**) | 세윤     |✔|
-|19장 | 비트 조작           | 11회(02.06~02.19)              | 태욱     | |
-|20장 | 슬라이딩 윈도우     | 11회(02.06~02.19)              | 효은     | |
+|19장 | [비트 조작](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch19)           | 11회(02.06~**02.19**) | 태욱     |✔|
+|20장 | [슬라이딩 윈도우](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch19)     | 11회(02.06~**02.19**) | 효은     |✔|
 |21장 | 그리디 알고리즘     | *              | 유진     | |
 |22장 | 분할 정복           | *              | 기오     | |
 |23장 | 다이나믹 프로그래밍 | *              | 미성     | |
