@@ -13,7 +13,7 @@
 def solution(N, number):
     if N == number:
         return 1
-    s=[set() for x in range(8)] # 최소값은 8까지 !
+    s=[set() for x in range(8)] 
     for i , x in enumerate(s):
         x.add(int(str(N)*(i+1))) # 5, 55, 555.. 추가해줌
     
