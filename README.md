@@ -18,10 +18,10 @@
 |17장 | [정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)                | 9회(01.23~**01.29**) | 미성     |✔|
 |18장 | [이진 검색](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch18)           | 10회(01.30~**02.05**) | 세윤     |✔|
 |19장 | [비트 조작](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch19)           | 11회(02.06~**02.19**) | 태욱     |✔|
-|20장 | [슬라이딩 윈도우](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch19)     | 11회(02.06~**02.19**) | 효은     |✔|
-|21장 | 그리디 알고리즘     | 12회 (02.20~**02.26**)| 유진     |✔|
-|22장 | 분할 정복           | 13회 (02.27~**03.05**)| 기오     |✔|
-|23장 | 다이나믹 프로그래밍 | 13회 (02.27~**03.05**)| 미성     |✔|
+|20장 | [슬라이딩 윈도우](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch20)     | 11회(02.06~**02.19**) | 효은     |✔|
+|21장 | [그리디 알고리즘](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch21)     | 12회 (02.20~**02.26**)| 유진     |✔|
+|22장 | [분할 정복](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch22)           | 13회 (02.27~**03.05**)| 기오     |✔|
+|23장 | [다이나믹 프로그래밍](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch23) | 13회 (02.27~**03.05**)| 미성     |✔|
 
 
 * **study**
