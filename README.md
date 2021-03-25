@@ -12,7 +12,7 @@
 |11장 | [해시 테이블](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch11)         | 4회(12.14~**12.21**)|태욱       |✔|
 |12장 | [그래프](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch12)              | 5회(12.22~**01.01**)| 효은     |✔|
 |13장 | [최단 경로](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch13)           | 6회(01.02~**01.08**) | 세윤     |✔|
-|14장 | [트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)                | 6회, 7회, 8회(01.02~01.22)| 유진     |✔|
+|14장 | [트리](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch14)                | 6회, 7회, 8회(01.02~**01.22**)| 유진     |✔|
 |15장 | [힙](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch15)                  | 8회(01.16~**01.22**) | 기오     |✔|
 |16장 | [트라이](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch16)              | 8회(01.16~**01.22**) |기오      |✔|
 |17장 | [정렬](https://github.com/hyo-eun-kim/algorithm-study/tree/main/ch17)                | 9회(01.23~**01.29**) | 미성     |✔|
